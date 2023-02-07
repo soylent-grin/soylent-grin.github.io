@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Front-end and Vue Developer">
+  <meta name="keywords" content="resume,cv,Marko Marković">
+  <meta name="author" content="Marko Marković">
+  <!-- <meta name="robots" content="noindex"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  
+  <link href="./build.css" rel="stylesheet">
+  <style>
+    hr {
+      margin: 10px 0;
+    }
+    .skill, a {
+      transition: all 0.3s ease-out;
+    }
+    .skill-container:hover .skill--excellent {
+      background-color: rgba(187, 247, 208, 0.8);
+    }
+    .skill-container:hover .skill--good {
+      background-color: rgba(187, 247, 208, 0.4);
+    }
+    .skill-container:hover .skill--normal {
+      background-color: rgba(187, 247, 208, 0.2);
+    }
+    /* a {
+      color: rgba(187, 247, 208, 0.8);
+    }
+    a:hover {
+      color: rgba(187, 247, 208, 0.8);
+    } */
+    .my-links li {
+      margin-bottom: 10px;
+    }
+    .my-links li svg {
+      display: inline;
+      width: 18px;
+      height: 20px;
+    }
+  </style>
+  <title>Nikolai Klimov — Resume</title>
+</head>
+
+<body>
+  <main class="font-firago hyphens-manual">
+
+    <!-- Page -->
+    <div
+      class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
+
+      <!-- Name -->
+      <header class="flex items-center mb-8 md:mb-11">
+        <div
+          class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+          style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
+          <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">N</div>
+          <div class="text-center initial">K</div>
+        </div>
+        <h1 class="text-2xl font-semibold text-gray-750 pb-px">
+          Nikolai Klimov
+        </h1>
+      </header>
+      <!-- end Name -->
+
+      <!-- Column -->
+      <div class="md:col-count-2 print:col-count-2 col-gap-md">
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              ABOUT ME
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                Software engineer searching for long-term employment, remotely / with relocation, full-time / project-based.
+                <hr />
+                Consider problem-solving, attentiveness on any level and ability to storytelling (through documentation, user experience or solution design) as my best general skills.
+                <hr />
+                Prefer product-oriented / OSS small-to-midsize company, ready to apply to any position from middle+ to team/tech lead on any tech stack.
+              </p>
+            </section>
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              EXPERTISE
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Team Lead / Tech Lead / Architect
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Since 2018
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <ul class="list-disc">
+                  <li>
+                    Was solely responsible for software part of complex composite product (Access Control, NVR, PSIM)
+                  </li>
+                  <li>
+                    Managed team up to 10 engineers
+                  </li>
+                  <li>
+                    Maintained and scaled developer infrastructure and processes
+                  </li>
+                  <li>
+                    Occasionally acted as Product Owner and HR, conducted up to 50 interviews
+                  </li>
+                </ul>
+              </p>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Fullstack Developer
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Since 2016
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <ul class="list-disc">
+                  <li>
+                    Most of the time wrote highly-asynchronous functional code within bullet-proof enterprise architecture
+                  </li>
+                  <li>
+                    Prefer Scala or Node.js for backend, not constrained by particular technology
+                  </li>
+                  <li>
+                    In love with "simple made easy" principle
+                  </li>
+                </ul>
+              </p>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Front-End Developer
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Since 2013
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                <ul class="list-disc">
+                  <li>
+                    Developed dozens of SPAs from simple forms to complex state management apps >40k LoC from scratch
+                  </li>
+                  <li>
+                    Maintained and evolved huge codebase in long-term from JQuery to Webpack & Ant Design
+                  </li>
+                  <li>
+                    Worked w\o designer most of the time; self-taught strong UX feeling
+                  </li>
+                </ul>
+              </p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              EXPERIENCE
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Freelance
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Jun 2021 – Present | Consultant
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                Technical and near-technical mentoring and consulting, mostly non-profit
+              </p>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  <a href="https://itrium.ru" class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                    Itrium SPb
+                  </a>
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Feb 2014 – Present | Software Engineer
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                Head of software engineering department, developing server-side platform and embedded software for mid-to-large PSIM (Physical Security Information Management) systems, from OS to UX. Participated and established some major-scale product transformations in close communication to business owners.
+              </p>
+            </section>
+
+          </div>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                <a href="https://github.com/ailabitmo" class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                  ISST Laboratory, ITMO University
+                </a>
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Dec 2014 – Dec 2020 | Research fellow
+              </p>
+            </header>
+            <p class="mt-2.1 text-md text-gray-700 leading-normal">
+              Part-time participant in several RnD projects in IoT, Machine Learning and Automated Speech Recognition, Scopus papers co-author, conference attender
+            </p>
+          </section>
+
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              EDUCATION
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  European University at Saint Petersburg
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  2022 | SPE program, Social and Political Philosophy
+                </p>
+              </header>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO University)
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  2015 – 2019 | Postgrad, Computer Science and Applied Mathematics
+                </p>
+              </header>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO University)
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  2013 – 2015 | Master's Degree, Computer Science and Applied Mathematics
+                </p>
+              </header>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Volgograd State Technical University
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  2009 – 2013 | Bachelor's Degree, Computer Science and Engineering
+                </p>
+              </header>
+            </section>
+
+          </div>
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              SKILLS
+            </h2>
+
+            <section class="skill-container mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Front-End
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Advanced Level
+                </p>
+              </header>
+              <div class="my-3.2 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    React
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    Redux
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    Ant Design
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    UX
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    CSS Modules
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    Webpack
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    Babel
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                    TypeScript
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                    Optimization / profiling
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    Wireframing
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    d3.js
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    Vue
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    Angular
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    Material Design
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                    Tailwind
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+          </div>
+
+          <section class="skill-container mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Back-End
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Upper-intermediate Level
+              </p>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Scala
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Node.js
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Play! Framework
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Slick
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Java
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Akka
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  WAMP / STOMP
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Express.js / Nest.js
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  PostgreSQL
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Nginx
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Apache Cassandra
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  VisualVM
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Cats Effect
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Flask
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Spring
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="skill-container mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                DevOps / TestOps
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Intermediate Level
+              </p>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Jenkins
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Docker / Podman
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Debian
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  ELK
+                </li>
+                <li
+                  class="px-2.5 mr-ti1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Grafana
+                </li>
+                <li
+                  class="px-2.5 mr-ti1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Prometheus
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Zabbix
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Cypress
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  RHEL
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Network (TCP, UDP, multicast)
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Heroku
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Jekyll
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Python
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  HTTPs
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="skill-container mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Team Lead
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Upper-intermediate Level
+              </p>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Playing couch
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Mentoring
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Business analysis
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Documenting / tech writing
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  DX
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--excellent">
+                  Code review
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Task decomposition
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Performance review
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Presentations
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Conflict management
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Interviews
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="skill-container mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Misc
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  ZeroMQ
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  RabbitMQ
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Apache Kafka
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Protobuf / gRPC
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  Camunda / Activiti BPMN
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  KeyCloak
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  SOAP
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  JasperReports
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  JSON-LD
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--good">
+                  SPARQL
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  ASR Kaldi
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  NLP
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  scikit-learn
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  ffmpeg
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  C++
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  DLib
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Lua
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  WASM
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  MODBUS
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Chromium Embedded Framework
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  Wix / InnoSetup
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  ActiveX
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  JNI
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200 skill skill--normal">
+                  SIP
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        </section>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              CONTACT
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid my-links">
+              <ul class="list-inside pr-7">
+                <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                  <a href="https://t.me/trevojnost">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M22.05 1.577c-.393-.016-.784.08-1.117.235-.484.186-4.92 1.902-9.41 3.64-2.26.873-4.518 1.746-6.256 2.415-1.737.67-3.045 1.168-3.114 1.192-.46.16-1.082.362-1.61.984-.133.155-.267.354-.335.628s-.038.622.095.895c.265.547.714.773 1.244.976 1.76.564 3.58 1.102 5.087 1.608.556 1.96 1.09 3.927 1.618 5.89.174.394.553.54.944.544l-.002.02s.307.03.606-.042c.3-.07.677-.244 1.02-.565.377-.354 1.4-1.36 1.98-1.928l4.37 3.226.035.02s.484.34 1.192.388c.354.024.82-.044 1.22-.337.403-.294.67-.767.795-1.307.374-1.63 2.853-13.427 3.276-15.38l-.012.046c.296-1.1.187-2.108-.496-2.705-.342-.297-.736-.427-1.13-.444zm-.118 1.874c.027.025.025.025.002.027-.007-.002.08.118-.09.755l-.007.024-.005.022c-.432 1.997-2.936 13.9-3.27 15.356-.046.196-.065.182-.054.17-.1-.015-.285-.094-.3-.1l-7.48-5.525c2.562-2.467 5.182-4.7 7.827-7.08.468-.235.39-.96-.17-.972-.594.14-1.095.567-1.64.84-3.132 1.858-6.332 3.492-9.43 5.406-1.59-.553-3.177-1.012-4.643-1.467 1.272-.51 2.283-.886 3.278-1.27 1.738-.67 3.996-1.54 6.256-2.415 4.522-1.748 9.07-3.51 9.465-3.662l.032-.013.03-.013c.11-.05.173-.055.202-.057 0 0-.01-.033-.002-.026zM10.02 16.016l1.234.912c-.532.52-1.035 1.01-1.398 1.36z" color="#000" /></svg>
+                    <span class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">trevojnost</span>
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </li>
+                <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                  <a href="mailto:hocico16@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve"><g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"><path d="M 75.546 78.738 H 14.455 C 6.484 78.738 0 72.254 0 64.283 V 25.716 c 0 -7.97 6.485 -14.455 14.455 -14.455 h 61.091 c 7.97 0 14.454 6.485 14.454 14.455 v 38.567 C 90 72.254 83.516 78.738 75.546 78.738 z M 14.455 15.488 c -5.64 0 -10.228 4.588 -10.228 10.228 v 38.567 c 0 5.64 4.588 10.229 10.228 10.229 h 61.091 c 5.64 0 10.228 -4.589 10.228 -10.229 V 25.716 c 0 -5.64 -4.588 -10.228 -10.228 -10.228 H 14.455 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 11.044 25.917 C 21.848 36.445 32.652 46.972 43.456 57.5 c 2.014 1.962 5.105 -1.122 3.088 -3.088 C 35.74 43.885 24.936 33.357 14.132 22.83 C 12.118 20.867 9.027 23.952 11.044 25.917 L 11.044 25.917 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 46.544 57.5 c 10.804 -10.527 21.608 -21.055 32.412 -31.582 c 2.016 -1.965 -1.073 -5.051 -3.088 -3.088 C 65.064 33.357 54.26 43.885 43.456 54.412 C 41.44 56.377 44.529 59.463 46.544 57.5 L 46.544 57.5 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 78.837 64.952 c -7.189 -6.818 -14.379 -13.635 -21.568 -20.453 c -2.039 -1.933 -5.132 1.149 -3.088 3.088 c 7.189 6.818 14.379 13.635 21.568 20.453 C 77.788 69.973 80.881 66.89 78.837 64.952 L 78.837 64.952 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /><path d="M 14.446 68.039 c 7.189 -6.818 14.379 -13.635 21.568 -20.453 c 2.043 -1.938 -1.048 -5.022 -3.088 -3.088 c -7.189 6.818 -14.379 13.635 -21.568 20.453 C 9.315 66.889 12.406 69.974 14.446 68.039 L 14.446 68.039 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" /></g></svg>
+                    <span class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">hocico16@gmail.com</span>
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </li>
+                <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                  <a href="https://github.com/soylent-grin">
+                    <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    <span class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">soylent-grin</span>
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </li>
+                <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                  <a href="https://www.researchgate.net/profile/Nikolay-Klimov">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32px" height="32px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                  viewBox="0 0 32 32"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                  <defs>
+                  <style type="text/css">
+                  .fil0 {fill:gray;fill-rule:nonzero}
+                  .fil1 {fill:white;fill-rule:nonzero}
+                  </style>
+                  </defs>
+                  <g id="Capa_x0020_1">
+                  <metadata id="CorelCorpID_0Corel-Layer"/>
+                  <path class="fil0" d="M32.04 15.97c0,8.85 -7.18,16.03 -16.02,16.03 -8.85,0 -16.02,-7.18 -16.02,-16.03 0,-8.85 7.17,-16.03 16.02,-16.03 8.84,0 16.02,7.18 16.02,16.03zm-14.79 7c-1.43,-0.28 -2.28,-1.11 -4.45,-4.33 -0.72,-1.08 -0.72,-1.08 -1.42,-1.13 -1.03,-0.07 -0.95,-0.25 -0.92,2.02 0.04,2.58 0.01,2.52 1.5,2.77 0.39,0.06 0.42,0.09 0.42,0.32 0,0.26 0,0.26 -2.62,0.28 -2.46,0.02 -2.62,0.01 -2.67,-0.14 -0.1,-0.29 0.05,-0.43 0.59,-0.53 0.61,-0.11 0.93,-0.36 1.01,-0.78 0.04,-0.16 0.05,-2.32 0.03,-4.8 -0.03,-5.21 0.03,-4.9 -0.93,-5.11 -0.6,-0.13 -0.79,-0.27 -0.71,-0.51 0.06,-0.16 0.19,-0.17 2.92,-0.22 4.06,-0.08 4.82,0.05 5.9,1.01 1.13,1.01 1.29,2.55 0.39,3.84 -0.4,0.58 -1.2,1.2 -1.82,1.43 -0.29,0.11 -0.53,0.23 -0.53,0.27 0,0.12 0.92,1.43 1.49,2.13 1.52,1.85 2.34,2.57 3.19,2.79 0.53,0.14 0.68,0.29 0.53,0.55 -0.16,0.27 -0.96,0.33 -1.9,0.14zm-3.83 -6.63c2,-0.82 2.15,-3.57 0.25,-4.38 -0.49,-0.21 -0.62,-0.22 -1.85,-0.22 -1.33,0 -1.33,0 -1.35,2.31 -0.02,1.27 -0.01,2.37 0.02,2.43 0.09,0.21 2.34,0.1 2.93,-0.14zm6.97 -2.85c-1.55,-0.29 -2.06,-1.24 -1.98,-3.68 0.04,-1.35 0.15,-1.72 0.67,-2.28 0.92,-0.99 3.2,-0.9 4.04,0.16 0.36,0.45 0.33,0.59 -0.17,0.74 -0.39,0.13 -0.39,0.13 -0.75,-0.23 -0.85,-0.82 -2.32,-0.52 -2.58,0.54 -0.13,0.47 -0.12,2.46 0.01,2.91 0.35,1.27 2.46,1.27 2.82,0 0.22,-0.81 0.17,-0.87 -0.8,-0.92 -0.47,-0.02 -0.47,-0.02 -0.47,-0.41 0,-0.38 0,-0.38 1.12,-0.41 1.45,-0.03 1.43,-0.05 1.36,1.01 -0.09,1.33 -0.45,1.97 -1.32,2.35 -0.57,0.24 -1.35,0.33 -1.95,0.22z"/>
+                  <path class="fil1" d="M17.25 22.97c-1.43,-0.28 -2.28,-1.11 -4.45,-4.33 -0.72,-1.08 -0.72,-1.08 -1.42,-1.13 -1.03,-0.07 -0.95,-0.25 -0.92,2.02 0.04,2.58 0.01,2.52 1.5,2.77 0.39,0.06 0.42,0.09 0.42,0.32 0,0.26 0,0.26 -2.62,0.28 -2.46,0.02 -2.62,0.01 -2.67,-0.14 -0.1,-0.29 0.05,-0.43 0.59,-0.53 0.61,-0.11 0.93,-0.36 1.01,-0.78 0.04,-0.16 0.05,-2.32 0.03,-4.8 -0.03,-5.21 0.03,-4.9 -0.93,-5.11 -0.6,-0.13 -0.79,-0.27 -0.71,-0.51 0.06,-0.16 0.19,-0.17 2.92,-0.22 4.06,-0.08 4.82,0.05 5.9,1.01 1.13,1.01 1.29,2.55 0.39,3.84 -0.4,0.58 -1.2,1.2 -1.82,1.43 -0.29,0.11 -0.53,0.23 -0.53,0.27 0,0.12 0.92,1.43 1.49,2.13 1.52,1.85 2.34,2.57 3.19,2.79 0.53,0.14 0.68,0.29 0.53,0.55 -0.16,0.27 -0.96,0.33 -1.9,0.14zm-3.83 -6.63c2,-0.82 2.15,-3.57 0.25,-4.38 -0.49,-0.21 -0.62,-0.22 -1.85,-0.22 -1.33,0 -1.33,0 -1.35,2.31 -0.02,1.27 -0.01,2.37 0.02,2.43 0.09,0.21 2.34,0.1 2.93,-0.14zm6.97 -2.85c-1.55,-0.29 -2.06,-1.24 -1.98,-3.68 0.04,-1.35 0.15,-1.72 0.67,-2.28 0.92,-0.99 3.2,-0.9 4.04,0.16 0.36,0.45 0.33,0.59 -0.17,0.74 -0.39,0.13 -0.39,0.13 -0.75,-0.23 -0.85,-0.82 -2.32,-0.52 -2.58,0.54 -0.13,0.47 -0.12,2.46 0.01,2.91 0.35,1.27 2.46,1.27 2.82,0 0.22,-0.81 0.17,-0.87 -0.8,-0.92 -0.47,-0.02 -0.47,-0.02 -0.47,-0.41 0,-0.38 0,-0.38 1.12,-0.41 1.45,-0.03 1.43,-0.05 1.36,1.01 -0.09,1.33 -0.45,1.97 -1.32,2.35 -0.57,0.24 -1.35,0.33 -1.95,0.22zm0 0z"/>
+                  </g>
+                  </svg>
+                    <span class="group font-medium text-blue-600 dark:text-blue-500 hover:underline">ResearchGate</span>
+                    <span
+                      class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </li>
+                <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="395.71px" height="395.71px" viewBox="0 0 395.71 395.71" style="enable-background:new 0 0 395.71 395.71;" xml:space="preserve"><g><path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738
+                    c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388
+                    C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191
+                    c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"/></g></svg>
+                  <span>currently in Tbilisi, Georgia</span>
+                </li>
+              </ul>
+            </section>
+
+          </div>
+
+        </section>
+
+      </div>
+      <!-- end Column -->
+
+    </div>
+    <!-- end Page -->
+
+  </main>
+
+</body>
+
+</html>
